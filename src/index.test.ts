@@ -15,6 +15,6 @@ it("should add 1 and 0 together", () => {
 it("should add 1 and null together", () => {
     expect(add(1,null)).toEqual(1);
 });
-it("should add 5 and 6 together", () => {
+it("should add null and null together", () => {
     expect(add(null,null)).toEqual(0);
 });
